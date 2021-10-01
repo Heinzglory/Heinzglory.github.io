@@ -39,7 +39,7 @@ padding: 10px;
 
 }
 
-.itemMain > p {
+.itemMain p {
   text-align: center;
   padding-left: 22%;
   padding-right: 22%;
@@ -68,6 +68,10 @@ max-width: 300px;
 border-bottom: 2px solid rgb(0, 255, 0);
 background-color: black;
 color: white;
+}
+
+.itemLogo img{
+width: 70px;
 }
 
 .itemSosial{ grid-area: sosial;
