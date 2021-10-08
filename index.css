@@ -43,6 +43,11 @@ background-color: rgb(37, 37, 37);
 padding: 10px;
 }
 
+.itemMain img{
+  padding-bottom: 100px;
+  width: 400px;
+}
+
 .itemMain p { /*spesifiserer alle <p> comands inne i eit spesefikt grid område*/
   text-align: center;
   padding-left: 22%;
@@ -158,10 +163,12 @@ font-size: 20px;
   li {
     font-size: 18px;
   }
-  
-  .dropbtn{
-    padding-top: 15px;
+
+  .itemMain img{
+    padding-bottom: 100px;
+    width: 200px;
   }
+  
 } /*@media slutt*/
 
 .dropbtn { /*styrer dropdown knappen*/
@@ -170,6 +177,7 @@ font-size: 20px;
   font-size: 30px;
   width: 160px;
   border: none;
+  padding-top: 5px;
 }
 
 .dropdown { /*styrer kor i griden dropdownen er.*/
@@ -199,5 +207,4 @@ font-size: 20px;
 
 .dropbtn:hover { /*spesifiserer korleis knappen ser ut når du holder over den.*/
   background-color: rgb(37, 37, 37);
-
 }
