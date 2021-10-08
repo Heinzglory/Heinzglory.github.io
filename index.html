@@ -1,40 +1,44 @@
-<html> 
-<head>
-    <link rel="stylesheet" href="index.css">
+<html>  <!--starter html gjennkjenning-->
+<head>  <!--head blir ikkje vist på siden men ting hær kan styre noe på siden-->
+    <link rel="stylesheet" href="index.css"> <!--kobbler css og html sammen-->
 
-  <title>Heinzglory</title>
+  <title>Heinzglory</title>  <!--lager namn på siden-->
 
-</head>
+</head> <!--avslutter head-->
 
-<body>
+
+<body> <!--starter body/det du ser på siden-->
 
     <div class="grid-container">
 
      <div class="itemLogo">
-     <a href="index.html"><img src="heine-logo.png" alt= "logo" width="70px"></a>
-      <h2>Heinzglory</h2>
-    </div>
+     <a href="index.html"><img src="heine-logo.png" alt= "logo" width="70px"></a> <!--setter pyperkobling på eit bilde/lager hjemknapp-->
+      <h2>Tilbake</h2>
+    </div> <!--<img> legger inn bilder-->
 
-      <div class="itemMenu">
-      <ul class=fag>
-        <li><a href="underside_fag.html">Fag</a></li>
-        <li>Andre<span class="hiddenLetters">_</span>nettsider</li>
-        <li><a href="andreFolk.html">Andre<span class="hiddenLetters">_</span>folk</a></li>
-        </ul>
+      <div class="itemMenu"> <!--spesifiserer kva "item" det er og dermed kor den skal bli satt-->
+        <h3>Informasjonsteknologi og medieproduksjon.</h3>
       </div>
 
       <div class="itemMain">
-        <h5>Who am I?</h5>
+        
+        <div>
+        <h5>What is this?</h5>
        
-        <br>
+        <p>This is my digital workspace, here i will post all assignments in my core subjekts for all to see. This website itself is an assignment and a would like feedback from everyone. Contact info can be found under "Sosial".</p>
+        </div>
+
+        <br> <!--lager et mellomrom mellom det over og det under-->
+
+        <div>
+        <h5>Who am I</h5>
 
         <p>My name is Heine Kvammen, I am a 16 year old guy who is attending IM at Amalie skram VGs. I work at REMA1000 Ostereidet and atended Ostereidet Lower middleschool. In my spare time i play games and hangout with friends.</p>
-
-        <p>This is my digital workspace, here i will post all assignments in my core subjekts for all to see. This website itself is an assignment and a would like feedback from everyone. Contact info can be found under "Sosial".</p>
+        </div>  
 
         <p>kor eg evt har praksisplass eller kva eg gjør som elevbedrift.</p>
-        
-        <br>
+
+        <br> 
 
         <h5>What do i like?</h5>
 
@@ -46,11 +50,15 @@
       <div class="itemRight">
        <h4>Lorem, ipsum dolor.</h4>
        <iframe width="160" src="https://www.youtube.com/embed/4GFubdyD370?">
-      </iframe> 
+      </iframe> <!--legger til youtube video som kan bli spilt av på siden-->
       </div>
-      
+
       <div class="itemLeft">
-        <h4>Lorem, ipsum dolor.</h4>
+        <ul class=fag> <!--<li> gjør at det blir ei liste <a> betyr hyperkobling og <spann> commanden er koblet til hiddenletters i css og skjuler dei vangte tegneene-->
+          <li><a href="underside_fag.html">Fag</a></li>
+          <li><a href="andre-nettsider.html">Andre<span class="hiddenLetters">_</span>nettsider</a></li>
+          <li><a href="andreFolk.html">Andre<span class="hiddenLetters">_</span>folk</a></li>
+          </ul>  
     </div>
 
     <div class="itemFooter">
@@ -59,7 +67,7 @@
 
     <div class="dropdown">
       <button class="dropbtn">Sosialt</button>
-      <div class="dropdown-content">
+      <div class="dropdown-content"> <!--legger ting inn i dropdown-->
       <p><A href="discord.html">Discord</A></p>
       <p><a href="https://github.com/Heinzglory">Github</a></p>
       <p><a href="https://twitter.com/Hud_sitter">Twitter</a></p>
@@ -69,5 +77,5 @@
 
     
   
-</body>
-</html>
+</body>  <!--avslutter body-->
+</html>  <!--avslutter html/end code-->
